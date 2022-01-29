@@ -35,12 +35,10 @@ public class MainActivity extends AppCompatActivity {
     SeekBar seekbarPercent;
     Button btnClear;
 
-    NumberFormat currencyFormat = NumberFormat.getCurrencyInstance();
-    NumberFormat percentFormat = NumberFormat.getPercentInstance();
-
     Double tipPercentage = 10.0; // initial 10% tip percentage is selected
     Double splitByAmt = 1.0; // initial total number of persons selected is 1
     Double initialAmt = 0.0;
+    NumberFormat currencyFormat = NumberFormat.getCurrencyInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
